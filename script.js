@@ -1,0 +1,7 @@
+const burgir = document.querySelector(".toggle_menu");
+const hNav = document.querySelector(".header-nav");
+burgir.addEventListener("click", () => {
+    burgir.classList.toggle("open");
+    hNav.classList.toggle("open");
+});
+
