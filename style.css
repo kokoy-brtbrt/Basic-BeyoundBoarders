@@ -203,8 +203,7 @@ img {
   display: none;
  }
  .toggle_menu{
-  display: block;
- }
+  display: block;}
 }
 
 /* BANNER */
@@ -295,12 +294,27 @@ position: relative;
       min-heght:20rem;
     }
   }
+  /* TOP */
+  .top{
+    background: var(--primary);
+    padding: 5 rem 0;
+  }
+  .top h2{
+    font-size: 3rem;
+    color:var(--light);
+    font-weight:600;
+  }
+  .top .top_wrapper{
+    margin: 5rem;
+    display: grid;
+    
+  }
 /* REPEATABLE PATTERNS */
 :root{
-   --primary: #004225;
-   --light: #ffffff;
-   --dark: #000000;
-   --accent: #618264;
+  --primary: #004225;
+  --light: #ffffff;
+  --dark: #000000;
+  --accent: #618264;
 }
 .btn{
     padding: 1.5rem 2rem;
@@ -317,4 +331,20 @@ position: relative;
     background: var(--light);
     color: var(--primary);
     border: 1px solid var(--primary);
-}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
